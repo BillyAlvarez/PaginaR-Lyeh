@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
+
+html {font-size: 100%;} /*16px*/
+
+body {
+  background: rgb(92, 85, 85);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #000000;
+}
+
+h6{
+color: black;
+}
+
+.bg-dark h3{
+    color: darkorange;
+}
+
+.carousel-inner img{
+    margin: auto;
+}
+
+.card img {
+    padding-top: 2rem;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+}
+
+

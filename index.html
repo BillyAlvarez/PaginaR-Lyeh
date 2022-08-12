@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Bootstrap</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/imgs/favicon-16x16.png">
+    <script src="https://kit.fontawesome.com/7f4660a407.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+            <a class="navbar-brand ps-5 ms-5" href="#"><img src="assets/imgs/logor.jpg" ></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end pe-5  me-5" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active text-warning" aria-current="page" href="#"><strong>INICIO</strong></a>
+                    <a class="nav-link text-warning" href="#" ><strong>Carrito</strong></a>
+                    <a class="nav-link text-warning" href="#"><strong>Contacto</strong></a>
+                    <a class="nav-link disabled text-warning"><strong>Admin</strong></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <img src="assets/imgs/Logo.png" class="d-block w-20 h-20 p-3" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/imgs/Logo.png" class="d-block w-20 h-20 p-3" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/imgs/Logo.png" class="d-block w-20 h-20 p-3" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+    <div class="container-fluid p-0 m-xs-0 p-md-5">
+        <div class="row p-xs-0 p-md-5">
+            <div class="col-xs-12 col-sm-6 col-md-4 ">
+                <div class="card">
+                    <img src="assets/imgs/cerv1.jpeg" class="card-img-top" alt="cerveza1" >
+                    <div class="card-body">
+                        <h5 class="card-title">American IPA</h5>
+                        <p class="card-text">Una ipa con versión americana, Apreciable aroma a lúpulos
+                            americanos que destacan por sus aromas cítricos, afrutados y
+                            florales, con un amargor alto y moderada en alcohol.</p>
+                        <h6>6.0° de alcohol</h6>
+                        <h6><i class="fa-solid fa-location-dot"></i>Peñaflor - Chile</h6>
+                        <hr class="dropdown-divider">
+                        <div class="row g-0 ">
+                            <div class="col col-sm-8 text-end py-1">
+                                <h6><del>$ 3500</del></h6>
+                            </div>
+                            <div class="col col-sm-4 text-center">
+                                <h5 class="text-success">$ 2499</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 ">
+                <div class="card">
+                    <img src="assets/imgs/cerv2.jpeg" class="card-img-top" alt="disco1">
+                    <div class="card-body">
+                        <h5 class="card-title">Scottish Ale</h5>
+                        <p class="card-text">Cerveza artesanal ámbar con una versión escocesa, de
+                            carácter maltoso, en su sabor destacan las maltas
+                            caramelo, de cuerpo medio y bajo amargor.</p>
+                        <h6>5.1° de alcohol</h6>
+                        <h6><i class="fa-solid fa-location-dot"></i></i> Peñaflor - Chile</h6>
+                        <hr class="dropdown-divider">
+                        <div class="row g-0 ">
+                            <div class="col col-sm-8 text-end py-1">
+                                <h6>$ 2900</h6>
+                            </div>
+                            <div class="col col-sm-4 text-center">
+                                <h5 class="text-success">$ 2500</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 ">
+                <div class="card">
+                    <img src="assets/imgs/cerv3.jpeg" class="card-img-top" alt="disco1">
+                    <div class="card-body">
+                        <h5 class="card-title">A.s.b. Impure Misantropía</h5>
+                        <p class="card-text">Cerveza artesanal Doble ipa, colaboración con ‘cerveza
+                            macho cabrío’ pARA LA bANDA DE DOOm mETAL ‘A SAD bADA’.
+                            “la amargura del doom metal de a sad bada en carnada en una
+                            DObLE ipA”</p>
+                        <h6>8.5° de alcohol</h6>
+                        <h6><i class="fa-solid fa-location-dot"></i></i>Peñaflor - Chile</h6>
+                        <hr class="dropdown-divider">
+                        <div class="row g-0 ">
+                            <div class="col col-sm-8 text-end py-1">
+                                <h6>$ 3000</h6>
+                            </div>
+                            <div class="col col-sm-4 text-center">
+                                <h5 class="text-success">$ 2500</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid p-0 m-xs-0 p-md-5">
+        <div class="row p-xs-0 p-md-5">
+            <div class="col-xs-12 col-sm-6 col-md-4 ">
+                <div class="card">
+                    <img src="assets/imgs/cerv7.jpeg" class="card-img-top" alt="cerveza1" >
+                    <div class="card-body">
+                        <h5 class="card-title">Blonde</h5>
+                        <p class="card-text">cerveza artesanal de color amarillo a dorado, cuerpo ligero
+                            de bajo amargor, gran balance entre maltas y lúpulos.</p>
+                        <h6>5.9° de alcohol</h6><br>
+                        <h6><i class="fa-solid fa-location-dot"></i></i> Peñaflor - Chile</h6>
+                        <hr class="dropdown-divider">
+                        <div class="row g-0 ">
+                            <div class="col col-sm-8 text-end py-1">
+                                <h6>$ 2500</h6>
+                            </div>
+                            <div class="col col-sm-4 text-center">
+                                <h5 class="text-success">$ 2000</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 ">
+                <div class="card">
+                    <img src="assets/imgs/cerv5.jpeg" class="card-img-top" alt="disco1">
+                    <div class="card-body">
+                        <h5 class="card-title">Edicion Limitada</h5>
+                        <p class="card-text">Cerveza artesanal de la línea experimental donde tenemos la
+                            libertad de probar nuevas creaciones que cambiaran en cada
+                            lote, llevándote con nosotros a probar nuevos sabores y
+                            versiones.</p>
+                        <h6>° de Alcohol</h6>
+                        <h6><i class="fa-solid fa-location-dot"></i> Peñaflor - Chile</h6>
+                        <hr class="dropdown-divider">
+                        <div class="row g-0 ">
+                            <div class="col col-sm-8 text-end py-1">
+                                <h6>$ 2500</h6>
+                            </div>
+                            <div class="col col-sm-4 text-center">
+                                <h5 class="text-success">$ 3500</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 ">
+                <div class="card">
+                    <img src="assets/imgs/cerv6.jpeg" class="card-img-top" alt="disco1">
+                    <div class="card-body">
+                        <h5 class="card-title">Imperial Stout</h5>
+                        <p class="card-text">Cerveza artesanal de color oscuro, aromas a maltas
+                            tostadas, con toque a chocolate y café, aterciopelada en
+                            boca, mucho cuerpo y notable presencia de alcohol.</p>
+                        <h6>8.5° de alcohol</h6>
+                        <h6><i class="fa-solid fa-location-dot"></i> Peñaflor - Chile</h6>
+                        <hr class="dropdown-divider">
+                        <div class="row g-0 ">
+                            <div class="col col-sm-8 text-end py-1">
+                                <h6>$ 3500</h6>
+                            </div>
+                            <div class="col col-sm-4 text-center">
+                                <h5 class="text-success">$ 2500</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <section class="container-fluid">
+        <div class="row bg-secondary">
+            <div class="col-12 text-center">
+                <br>
+                <h5 class="text-white pb-2 "> Recibe Ofertas en tu correo</h5>
+                <form class="px-xs-0 px-md-5">
+                    <input class="form-control" type="text" placeholder="Nombre">
+                    <br>
+                    <input class="form-control" type="email" placeholder="Correo electronico">
+                    <br>
+                    <button type="button" class="btn btn-light mb-3">Enviar</button>
+                </form>
+
+            </div>
+
+            <div class="bg-dark text-center pt-4">
+                <h3><strong>R`LYEH</strong></h3>
+                <h6 >@2022 CERVEZA R`LYEH Todos los derechos reservados</h6>
+            </div>
+
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
